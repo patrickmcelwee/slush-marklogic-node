@@ -30,9 +30,10 @@ On Windows, that would be:
     ml.bat local bootstrap
     ml.bat local deploy modules
 
-Install additional dependencies using the bower package manager:
+Install additional dependencies using the bower and npm package managers:
 
     bower install
+    npm install
 
 If you want to upload a dictionary for spell-suggestions:
 

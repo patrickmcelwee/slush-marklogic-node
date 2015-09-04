@@ -64,9 +64,10 @@ On Windows, that would be:
     ml.bat local bootstrap
     ml.bat local deploy modules
 
-Install additional dependencies using the bower package manager:
+Install additional dependencies using the bower and npm package managers:
 
     bower install
+    npm install
 
 Edit the `_loginMode` variable in `ui/app/login/login.service.js` to change the login mode of the application. The default is set to `full`. The other options are `top-right` or `modal`.
 
